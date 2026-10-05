@@ -94,3 +94,37 @@ main{
     margin-bottom: 15px;
 }
 
+/* articoli correlati */
+.correlati{
+    flex-basis: 35%;
+}
+.correlati h2{
+    font-size: 18px;
+    border-bottom: 2px solid rgb(0, 128, 255);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.card{
+    margin-bottom: 25px;
+}
+.card h3{
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+.card p{
+    font-size: 14px;
+    color: gray;
+}
+
+/* footer */
+footer{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 20px;
+    box-sizing: border-box;
+}
