@@ -3,6 +3,17 @@
     margin: 0
 }
 
+body{
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: rgb(240, 240, 240);
+    color: rgb(40, 40, 40);
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
 /* top box  */
 .pattern{
     background-color: rgb(0, 128, 255);
@@ -15,5 +26,71 @@
 .titolo{
     height: 100%;
     width: 20%;
-    
+
 }
+.titolo img{
+    height: 100%;
+    padding: 0 10px;
+}
+
+/* menu */
+.menu{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-bottom: 3px solid rgb(0, 128, 255);
+    text-align: center;
+}
+.menu a{
+    display: inline-block;
+    padding: 12px 15px;
+    color: rgb(40, 40, 40);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    color: rgb(0, 128, 255);
+}
+
+/* contenuto principale */
+main{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.articolo{
+    flex-basis: 65%;
+}
+.categoria{
+    background-color: rgb(0, 128, 255);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 3px 8px;
+}
+.articolo h1{
+    font-size: 32px;
+    margin: 15px 0 10px;
+}
+.autore{
+    color: gray;
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.articolo img{
+    margin: 20px 0;
+}
+.articolo p{
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
